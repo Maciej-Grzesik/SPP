@@ -16,6 +16,3 @@ app = QtWidgets.QApplication([])
 main = MainWindow()
 main.show()
 app.exec()
-
-
-# minor changes
