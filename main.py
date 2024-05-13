@@ -17,5 +17,4 @@ main = MainWindow()
 main.show()
 app.exec()
 
-
-# minor changes
+# test
