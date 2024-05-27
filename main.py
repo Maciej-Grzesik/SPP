@@ -1,8 +1,5 @@
 import sys
-from PyQt5.QtCore import *
-from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
-from connection import SerialThread
 from window import Window
 
 
@@ -17,3 +14,4 @@ def main():
 if __name__ == '__main__':
     main()
 
+# zabezpieczenie kodu

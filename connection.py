@@ -7,9 +7,9 @@ from PyQt5.QtCore import QThread, pyqtSignal
 class SerialThread(QThread):
     distance_signal = pyqtSignal(int)
 
-    def __init__(self):
+    def __init__(self, port):
         super(SerialThread, self).__init__()
-        self.ser = serial.Serial(port='COM4', baudrate=9600)
+        self.ser = serial.Serial(port=port, baudrate=9600)
         self.running = False
 
     def close_connection(self):

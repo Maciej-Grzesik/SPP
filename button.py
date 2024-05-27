@@ -20,7 +20,7 @@ class Button(QPushButton):
             "}"
         )
         self.setText(name)
-        self.setFixedSize(200, 50)
+        self.setFixedSize(150, 50)
 
         self.animation = QPropertyAnimation(self, b'size')
         self.animation.setDuration(300)

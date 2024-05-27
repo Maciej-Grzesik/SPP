@@ -17,9 +17,9 @@ void loop() {
 
   Serial.print("Odległość: ");
   Serial.print(measure.RangeMilliMeter);
-
   Serial.println(" mm");
   delay(100);
+
 
   if (measure.RangeMilliMeter < 100) {
     tone(8, 3000);
